@@ -14,7 +14,7 @@ spec:
     path: charts/podinfo
     ref: master
   values:
-    image: nominalintegrations/podinfo:dev-u0qmtxp7
+    image: nominalintegrations/podinfo:dev-srtvukqe
     replicaCount: 1
     hpa:
       enabled: false
