@@ -15,8 +15,8 @@ spec:
     ref: master
   values:
     image:
-      repository: nominalintegrations/podinfo:dev-j0trcfor
-      tag: 1.2.1
+      repository: nominalintegrations/podinfo
+      tag: dev-j0trcfor
       pullPolicy: IfNotPresent
     replicaCount: 1
     hpa:
