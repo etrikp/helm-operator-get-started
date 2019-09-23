@@ -21,3 +21,5 @@ spec:
     replicaCount: 1
     hpa:
       enabled: false
+    ingress:
+      enabled: true
