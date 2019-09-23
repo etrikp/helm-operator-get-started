@@ -16,7 +16,7 @@ spec:
   values:
     image:
       repository: nominalintegrations/podinfo
-      tag: dev-ol1rovqo
+      tag: dev-hjkzdjo9
       pullPolicy: IfNotPresent
     replicaCount: 1
     hpa:
