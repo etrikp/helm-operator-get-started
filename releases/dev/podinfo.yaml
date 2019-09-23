@@ -11,7 +11,7 @@ spec:
   releaseName: podinfo-dev
   chart:
     git: git@github.com:etrikp/helm-operator-get-started
-    path: charts/podinfo
+    path: charts/podinfo-v1
     ref: master
   values:
     image: nominalintegrations/podinfo:dev-srtvukqe
