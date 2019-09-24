@@ -11,8 +11,18 @@ spec:
   releaseName: podinfo-prod
   chart:
     git: git@github.com:etrikp/helm-operator-get-started
-    path: charts/podinfo
+    path: charts/podinfo-v1
     ref: master
   values:
-    image: stefanprodan/podinfo:0.4.11
+    ingress:
+      enabled: true
+      hosts: []
+    image:
+      repository: nominalintegrations/podinfo
+      tag:
     replicaCount: 3
+    hpa:
+      enabled: true
+      maxReplicas: 10
+      cpu: 50
+      memory: 256Mi
