@@ -19,7 +19,7 @@ spec:
       hosts: []
     image:
       repository: nominalintegrations/podinfo
-      tag:
+      tag: stg-pcxewybu
     replicaCount: 2
     hpa:
       enabled: true
