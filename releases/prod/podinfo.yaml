@@ -16,7 +16,8 @@ spec:
   values:
     ingress:
       enabled: true
-      hosts: []
+      hosts:
+        - podinfo
     image:
       repository: nominalintegrations/podinfo
       tag:

@@ -16,7 +16,8 @@ spec:
   values:
     ingress:
       enabled: true
-      hosts: []
+      hosts:
+        - podinfo-rc
     image:
       repository: nominalintegrations/podinfo
       tag: stg-pcxewybu
