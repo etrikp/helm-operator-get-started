@@ -22,7 +22,4 @@ spec:
       tag:
     replicaCount: 3
     hpa:
-      enabled: true
-      maxReplicas: 10
-      cpu: 50
-      memory: 256Mi
+      enabled: false
