@@ -23,4 +23,5 @@ spec:
       enabled: false
     ingress:
       enabled: true
-      hosts: []
+      hosts:
+        podinfo-dev
