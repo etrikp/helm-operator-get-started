@@ -2,13 +2,13 @@
 apiVersion: flux.weave.works/v1beta1
 kind: HelmRelease
 metadata:
-  name: podinfo
+  name: podinfo-prod
   namespace: prod
   annotations:
     flux.weave.works/automated: "true"
     flux.weave.works/tag.chart-image: semver:~0.4
 spec:
-  releaseName: podinfo-prod
+  releaseName: podinfo
   chart:
     git: git@github.com:etrikp/helm-operator-get-started
     path: charts/podinfo-v1
