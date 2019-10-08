@@ -13,14 +13,10 @@ spec:
     git: git@github.com:etrikp/helm-operator-get-started
     path: charts/podinfo-v1
     ref: master
-  # valuesFrom: # We want too pull in
-  #   - configMapKeyRef:
-  #       name: cluster-config
-  #       optional: true
   values:
     image:
       repository: nominalintegrations/podinfo
-      tag: dev-qxvylcz3
+      tag: dev-ol1rovqo
       pullPolicy: IfNotPresent
     replicaCount: 1
     hpa:
